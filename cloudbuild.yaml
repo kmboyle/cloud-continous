@@ -6,7 +6,7 @@ steps:
 
   # Test
   - name: 'gcr.io/cloud-builders/npm'
-    args: ['run', 'test:unit']
+    args: ['run', 'test:ci']
 
   # Build productive files
   - name: 'gcr.io/cloud-builders/npm'

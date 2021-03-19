@@ -19,7 +19,7 @@ describe('AppComponent', () => {
   it(`should have as title 'gcloud-angular'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('gcloud-angular');
+    expect(app.title).toEqual('gcloud-angular-is-great');
   });
 
   it('should render title in a h1 tag', () => {

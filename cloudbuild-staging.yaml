@@ -5,6 +5,9 @@ steps:
     args: [ 'install' ]
 
   - name: 'gcr.io/cloud-builders/npm'
+    args: [ 'install', '-D', 'puppeteer', 'karma-chrome-launcher' ]
+
+  - name: 'gcr.io/cloud-builders/npm'
     args: [ 'rebuild' ]
 
   # Test

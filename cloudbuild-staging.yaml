@@ -7,10 +7,10 @@ steps:
   - name: 'gcr.io/cloud-builders/npm'
     args: [ 'rebuild' ]
   
-  - name: 'gcr.io/cloud-builders/bash'
+  - name: 'ubuntu'
     args: ['sudo', 'apt-get', 'update']
 
-  - name: 'gcr.io/cloud-builders/bash'
+  - name: 'ubuntu'
     args: ['sudo', 'apt-get', 'install', '-y', 'libgbm-dev']
 
   # Test

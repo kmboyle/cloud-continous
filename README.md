@@ -1,6 +1,5 @@
 # Cloud Computing Project
-This project is setup with integrations between GitHub and Google Cloud Build.  This project also uses CircleCi for test validation.
-
+This project is setup with integrations between GitHub and Google Cloud Build.  This project also uses CircleCi for test validation.  There are two branches: production and dev.
 # GcloudAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.

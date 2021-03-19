@@ -1,4 +1,4 @@
-runtime: nodejs14
+runtime: nodejs10
 
 handlers:
   - url: /
@@ -6,13 +6,3 @@ handlers:
     upload: dist/gcloud-angular/index.html
   - url: /
     static_dir: dist/gcloud-angular
-
-skip_files:
-  - e2e/
-  - node_modules/
-  - src/
-  - ^(.*/)?\..*$
-  - ^(.*/)?.*\.json$
-  - ^(.*/)?.*\.md$
-  - ^(.*/)?.*\.yaml$
-  - ^LICENSE

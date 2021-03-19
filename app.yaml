@@ -1,5 +1,8 @@
 runtime: nodejs10
 
+env_variables:
+  CHROME_BIN: require('puppeteer').executablePath()
+
 handlers:
   - url: /
     static_files: dist/gcloud-angular/index.html

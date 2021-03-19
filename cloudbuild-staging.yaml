@@ -14,5 +14,5 @@ steps:
 
   # Deploy to google cloud app egnine
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['app', 'deploy', '--version=20210221t192651', '--no-promote']
+    args: ['app', 'deploy', '--version=prod', '--no-promote']
   

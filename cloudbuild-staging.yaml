@@ -4,9 +4,6 @@ steps:
   - name: 'gcr.io/cloud-builders/npm'
     args: [ 'install' ]
 
-  - name: 'gcr.io/cloud-builders/npm'
-    args: [ 'rebuild' ]
-
   # Test
   # - name: 'gcr.io/cloud-builders/npm'
   #   args: ['run', 'test:ci']
@@ -17,5 +14,5 @@ steps:
 
   # Deploy to google cloud app egnine
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['app', 'deploy', '--version=0.0.2', '--no-promote' ]
+    args: ['app', 'deploy', '--version=prod', '--no-promote']
   
